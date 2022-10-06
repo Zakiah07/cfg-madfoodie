@@ -1,7 +1,7 @@
 nav {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     background-color: #b70f0a;
     position: fixed;
     width: 100%;
@@ -16,6 +16,7 @@ nav ul li{
     font-family: inherit;
     font-weight: bold;
     padding: 10px;
+    margin-right: 20px;
   }
 
 nav a {
@@ -25,6 +26,7 @@ nav a {
 
 nav a:hover {
     color:#fec63d;
+    transition: 0.2s ease;
   }
 
 nav-left {
@@ -34,6 +36,7 @@ nav-left {
     font: 30px bold;
     font-family: inherit;
     align-items: center;
+    cursor: pointer;
   }
 
   .search-nav {
@@ -79,4 +82,14 @@ nav-left {
 
 .pages a:hover {
     color:#fec63d;
+    transition: 0.2s ease;
+  }
+
+  .img11,
+  .img12,
+  .img13,
+  .img14,
+  .img15 {
+    width: 20px;
+    cursor: pointer;
   }
